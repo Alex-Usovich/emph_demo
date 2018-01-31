@@ -1,0 +1,24 @@
+div.app-notes-note-form-container {
+  width: calc(80% - 2px);
+  border: 1px solid black;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-family: SansSerif;
+  font-size: 12pt;
+  margin: 5px;
+  width: 40px;
+}
+
+button:hover {
+  outline: none;
+  border-bottom: 5px solid #dae504;
+}
+
+button:focus {
+  outline: none;
+  border-bottom: 5px solid #4bc14d;
+}

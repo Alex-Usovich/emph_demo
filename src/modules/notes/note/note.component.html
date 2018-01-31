@@ -1,0 +1,23 @@
+<div class="app note container"
+     [@myAwesomeAnimation]='notesInnerState$.isOpened && notesInnerState$.noteId === item.key'
+     (click)="openNote(item.key)">
+  <div class="app note header-panel">
+    <div class="app note header-panel-header">
+      Custom header
+    </div>
+    <div class="app note header-panel-ops" *ngIf="notesInnerState$.isOpened && notesInnerState$.noteId === item.key">
+      <button (click)="closeNote($event, item.key)"><i class="fa fa-times" aria-hidden="true"></i></button>
+    </div>
+  </div>
+  <div class="app note contents-panel">
+    <div class="app note contents-panel-contents">
+      {{ item.textContents }}
+    </div>
+    <div class="app note contents-panel-ops">
+      <button
+        (click)="deleteNote($event, item.key)">
+        <i class="fa fa-trash" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+div.app.container.note {
+  background-color: seashell;
+
+  margin: 3px;
+  border-radius: 3px;
+  padding: 6px;
+
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+div.app.note.header-panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}
+
+div.app.note.contents-panel {
+  display: flex;
+  flex-direction: column;
+
+}
+
+div.app.note.header-panel-header {
+  padding: 5px;
+  margin: 5px;
+}
+div.app.note.header-panel-ops {
+  padding: 5px;
+  margin: 5px;
+}
+
+
+div.app.note.contents-panel-contents {
+  padding: 5px;
+  margin: 5px;
+}
+
+div.app.note.contents-panel-ops {
+  padding: 5px;
+  margin: 5px;
+}
+
+.app.note.header-panel-ops button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 12pt;
+}
+
+.app.note.header-panel-ops button:hover {
+  outline: none;
+  border-bottom: 3px solid #dae504;
+}
+
+.app.note.header-panel-ops button:focus {
+  outline: none;
+  border-bottom: 5px solid #4bc14d;
+}
+
+.app.note.contents-panel-ops button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 12pt;
+}
+
+.app.note.contents-panel-ops button:hover {
+  outline: none;
+  border-bottom: 3px solid #dae504;
+}
+
+.app.note.contents-panel-ops button:focus {
+  outline: none;
+  border-bottom: 5px solid #4bc14d;
+}

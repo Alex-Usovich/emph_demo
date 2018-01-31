@@ -1,0 +1,12 @@
+<div class="app-notes-note-form-container" *ngIf="(popups$ | async)?.createNote">
+  <div class="app-notes-note-form-containter-nav">
+    <div class="app-notes-note-form-container-nav-close">
+      <button (click)="close()">Close</button>
+    </div>
+  </div>
+  <form [formGroup]="noteForm" novalidate>
+    <label for="textContents"><span>Note contents</span></label>
+    <textarea id="textContents" formControlName="textContents"></textarea>
+    <button (click)="add()">Submit</button>
+  </form>
+</div>

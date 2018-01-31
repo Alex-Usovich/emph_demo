@@ -1,0 +1,63 @@
+.app-overlay {
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.app-container {
+  position: absolute;
+  background-color: #eeeeee;
+  top: 50px;
+  left: 20%;
+  width: 60%;
+  height: 75%;
+  border-radius: 10px;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  background-color: burlywood;
+}
+
+div.app-header div.app-title {
+  position: relative;
+
+  width: calc(90% - 10px);
+  color: black;
+  fotn-size: 12pt;
+  font-family: 'Bree Serif';
+  padding-left: 10px;
+  background-color: burlywood;
+}
+
+div.app-header div.auth_panel-container {
+  position: relative;
+  width: 10%;
+}
+
+.app-dynamic {
+  position: absolute;
+  top: 40px;
+  left: 0;
+
+  width: 100%;
+  height: 85%;
+}
+
+.app-footer {
+  position: absolute;
+  color: black;
+  font-family: 'Bree Serif';
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+
+  background-color: burlywood;
+}
+

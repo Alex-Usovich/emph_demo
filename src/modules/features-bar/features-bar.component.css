@@ -1,0 +1,30 @@
+ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul > li {
+  text-align: center;
+}
+
+ul > li {
+  display: inline-block;
+  list-style: none;
+
+  width: calc(100% - 0.05em - 10px);
+  height: calc(100% - 10px);
+
+  border-radius: 3px;
+  margin-right: 0.05em;
+
+  padding: 5px;
+
+  background-color: #663399;
+  color: white;
+}
+
+/*ul > li:first-child {
+  width: calc(100% - 0.15em);
+  margin-left: 0.15em;
+}*/

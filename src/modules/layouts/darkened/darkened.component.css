@@ -1,0 +1,12 @@
+div.app.layout.darkened {
+  position: absolute;
+  display: flex;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 998;
+
+  min-height: 980px;
+  width: 99.5%;
+
+  cursor: pointer;
+}

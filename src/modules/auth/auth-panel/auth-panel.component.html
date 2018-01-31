@@ -1,0 +1,9 @@
+<div class="auth_panel-container">
+  <div class="auth_panel-container-menu">
+    <ul class="auth_panel-container-menu-items" *ngIf="!(authState$ | async)">
+      <li class="auth_panel-container-menu-item" routerLink="{{ '/sign-up' }}">up</li>
+      <li class="auth_panel-container-menu-item" routerLink="{{ 'sign-in' }}">in</li>
+    </ul>
+  </div>
+  <ew-auth-sign-out *ngIf="(authState$ | async)"></ew-auth-sign-out>
+</div>

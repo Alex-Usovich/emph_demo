@@ -1,0 +1,72 @@
+div.app-dashboard-container-inner {
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  height: calc(100% - 2px);
+  border: 1px solid black;
+}
+
+div.app-dashboard-header {
+  width: calc(100% - 6px);
+  height: calc(7% - 4px);
+
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  padding: 2px;
+
+  border: 1px solid blue;
+}
+
+div.app-dashboard-header-title {
+  position: relative;
+  color: #663399;
+  background-color: burlywood;
+
+  text-align: center;
+  width: calc(15% - 20px);
+  height: calc(100% - 21px);
+
+  font-size: 80%;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 1px solid burlywood;
+}
+
+div.app-features-bar-container {
+  position: relative;
+
+  width: 85%;
+  height: 100%;
+}
+
+
+div.app-dashboard-contents {
+
+  position: relative;
+  border: 1px solid black;
+  display: flex;
+
+  flex-direction: column;
+
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 3px;
+}
+
+/*??*/
+div.app-dashboard-contents:before,
+div.app-dashboard-contents:after {
+  content: "";
+  display: table;
+}
+div.app-dashboard-contents:after {
+  clear: both;
+}
+div.app-dashboard-contents {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}

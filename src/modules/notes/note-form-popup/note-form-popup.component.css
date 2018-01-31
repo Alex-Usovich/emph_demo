@@ -1,0 +1,56 @@
+div.app-notes-note-form-container {
+  position: absolute;
+  z-index: 1001;
+
+  top: 20%;
+  left: 30%;
+
+  background-color: darkgrey;
+  border-radius: 5px;
+  border: none;
+
+  width: 600px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+div.app-notes-note-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+div.app-notes-note-form-container form textarea {
+  resize: vertical;
+  margin: 5px;
+  padding: 10px;
+}
+
+div.app-notes-note-form-container form label span {
+  position: relative;
+  left: 40%;
+
+  padding: 10px;
+  font-family: SansSerif;
+  font-size: 12pt;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-family: SansSerif;
+  font-size: 12pt;
+  margin: 5px;
+}
+
+button:hover {
+  outline: none;
+  border-bottom: 5px solid #dae504;
+}
+
+button:focus {
+  outline: none;
+  border-bottom: 5px solid #4bc14d;
+}

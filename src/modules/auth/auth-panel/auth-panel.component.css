@@ -1,0 +1,36 @@
+div.auth_panel-container {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  background-color: burlywood;
+
+}
+
+div.app.features-bar.container ul > li {
+  list-style: none;
+  border-left: 2px solid white;
+
+  padding: 10px;
+
+  background-color: #663399;
+  color: white;
+}
+
+li.auth_panel-container-menu-item {
+  display: inline-block;
+  padding-right: 15px;
+  list-style: none;
+  cursor: pointer;
+  color: darkslateblue;
+}
+
+li.auth_panel-container-menu-item:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
